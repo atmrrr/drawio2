@@ -267,6 +267,15 @@
         <mxCell id="0gNUO90drCAbj731YcIp-112" value="当前新增策略" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="10" y="1430" width="80" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-113" value="根据 CDate" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="307" y="1530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-114" value="查询和新增查询一致" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1510" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-115" value="只需要查询欠款合同即可" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="415" y="1510" width="80" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
