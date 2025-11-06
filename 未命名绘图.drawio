@@ -102,6 +102,171 @@
         <mxCell id="0gNUO90drCAbj731YcIp-9" value="这个根据 CDate 字段来判断即可" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="580" y="210" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-12" value="新增的查询和更新的查询不一样" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0gNUO90drCAbj731YcIp-48" target="0gNUO90drCAbj731YcIp-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-48" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="860" width="94" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0gNUO90drCAbj731YcIp-51" target="0gNUO90drCAbj731YcIp-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0gNUO90drCAbj731YcIp-51" target="0gNUO90drCAbj731YcIp-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-51" value="判断是否单条记录" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="287" y="950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0gNUO90drCAbj731YcIp-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0gNUO90drCAbj731YcIp-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-54" value="是否新增" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1050" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0gNUO90drCAbj731YcIp-57" target="0gNUO90drCAbj731YcIp-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0gNUO90drCAbj731YcIp-57" target="0gNUO90drCAbj731YcIp-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-57" value="是否新增" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1050" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-58" value="是" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="950" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-59" value="否" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="950" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0gNUO90drCAbj731YcIp-64" target="0gNUO90drCAbj731YcIp-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-64" value="是，合并新增" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0gNUO90drCAbj731YcIp-66" target="0gNUO90drCAbj731YcIp-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-66" value="否，合并更新" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-67" value="是" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-68" value="否" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-69" value="是" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-70" value="否" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-71" value="生成新主键" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="415" y="1355" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-72" value="需要到数据库中根据&lt;div&gt;regCode 和 hostCode&lt;/div&gt;&lt;div&gt;去查询主键&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-73" value="根据 regcode 和 hostcode 去数据库中找到原来的记录，根据主键更新" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1180" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-74" value="执行单一记录新增逻辑，增添到表中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1180" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-78" value="这个根据 CDate 字段来判断即可" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1010" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0gNUO90drCAbj731YcIp-80" target="0gNUO90drCAbj731YcIp-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-80" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1470" width="94" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0gNUO90drCAbj731YcIp-83" target="0gNUO90drCAbj731YcIp-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0gNUO90drCAbj731YcIp-83" target="0gNUO90drCAbj731YcIp-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-83" value="是否新增" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="217" y="1560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0gNUO90drCAbj731YcIp-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0gNUO90drCAbj731YcIp-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-86" value="是否缺失" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0gNUO90drCAbj731YcIp-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0gNUO90drCAbj731YcIp-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-89" value="是否只有一条" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-90" value="是" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-91" value="否" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-99" value="是" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-100" value="否" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-101" value="是" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-102" value="否" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-103" value="从数据库中查询原来的信息，同时查询 tax 计算出新的金额信息根据 code 更新到数据库表中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1780" width="125" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-104" value="从数据库中查询之前的信息，根据两个最新的合同状态计算出金额等信息，根据 code 更新到数据库表中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1780" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-105" value="执行完整逻辑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1790" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-106" value="执行单一记录新增逻辑，增添到表中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="1790" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-109" value="否" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1780" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-110" value="这个根据 CDate 字段来判断即可" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1620" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0gNUO90drCAbj731YcIp-112" value="当前新增策略" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1430" width="80" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
