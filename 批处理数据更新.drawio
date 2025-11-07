@@ -49,8 +49,11 @@
         <mxCell id="wIDdD4ybss6C4YvJe5B5-15" value="数据被重新插入&lt;div&gt;唯一键约束报错&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="447" y="720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wIDdD4ybss6C4YvJe5B5-19" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;需要将大事务拆分为小事务进行提交，如果只有在所有数据完成导入后在更新 UDate 的话就会存在两种情况：&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1.将数据导入与更新 UDate 放在同一个事务中。形成一个数万条数据的大事务，占用数据库资源&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2.不将数据导入与 UDate 放在同一个事务中。在数据导入出现异常后，UDate 无法及时被更新，程序重启后导致数据被重复添加&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="620" y="40" width="280" height="140" as="geometry" />
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-19" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;需要将大事务拆分为小事务进行提交，如果只有在所有数据完成导入后在更新 UDate 的话就会存在两种情况：&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1.将数据导入与更新 UDate 放在同一个事务中。形成一个数万条数据的大事务，占用数据库资源&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2.不将数据导入与 UDate 放在同一个事务中。在数据导入出现异常后，UDate 无法及时被更新，程序重启后导致数据被重复添加&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="650" y="100" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-20" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;解决方法：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;还是将数据处理拆分为小事务，每一次的小事务，每一次提交都更新当前的处理数据进行累加，每次进行分页查询批量处理。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;在最后一次批处理的时候，更新 UDate 的操作时间，如何来判断是否是最后一次呢？根据分页查询后得到的实际查询数量是否小于 pageSize 即可。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;特殊值：0。当查询到的数据量为零，也会进行最后一次操作，如果在这个时候抛出了异常，v1 字段也已经记录了处理的数据量作为起始位置，所以重启后不会查询重复数据，只是会更新 UDate 的时间。&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="707" y="350" width="293" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
