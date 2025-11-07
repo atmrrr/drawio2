@@ -4,6 +4,54 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wIDdD4ybss6C4YvJe5B5-2" target="wIDdD4ybss6C4YvJe5B5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="74" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wIDdD4ybss6C4YvJe5B5-3" target="wIDdD4ybss6C4YvJe5B5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-3" value="批处理数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="327" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wIDdD4ybss6C4YvJe5B5-5" target="wIDdD4ybss6C4YvJe5B5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wIDdD4ybss6C4YvJe5B5-5" target="wIDdD4ybss6C4YvJe5B5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-5" value="出现异常" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="347" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-7" value="数据正常提交&lt;div&gt;UDate 字段更新&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="190" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wIDdD4ybss6C4YvJe5B5-9" target="wIDdD4ybss6C4YvJe5B5-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-9" value="部分数据未被成功处理 UDate 字段未更新" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="447" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-11" value="否" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-12" value="是" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wIDdD4ybss6C4YvJe5B5-13" target="wIDdD4ybss6C4YvJe5B5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-13" value="进行重试" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="447" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-15" value="数据被重新插入&lt;div&gt;唯一键约束报错&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="447" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wIDdD4ybss6C4YvJe5B5-19" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;需要将大事务拆分为小事务进行提交，如果只有在所有数据完成导入后在更新 UDate 的话就会存在两种情况：&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1.将数据导入与更新 UDate 放在同一个事务中。形成一个数万条数据的大事务，占用数据库资源&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2.不将数据导入与 UDate 放在同一个事务中。在数据导入出现异常后，UDate 无法及时被更新，程序重启后导致数据被重复添加&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="620" y="40" width="280" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
