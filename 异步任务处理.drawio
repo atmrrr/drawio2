@@ -73,6 +73,60 @@
         <mxCell id="EPhyCwNbziDaciPyUIgJ-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="6.返回执行完毕的结果" vertex="1">
           <mxGeometry height="30" width="120" x="540" y="240" as="geometry" />
         </mxCell>
+        <mxCell id="EPhyCwNbziDaciPyUIgJ-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="线程1" vertex="1">
+          <mxGeometry height="40" width="80" x="210" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="EPhyCwNbziDaciPyUIgJ-25" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="70" width="60" x="530" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="EPhyCwNbziDaciPyUIgJ-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="线程2" vertex="1">
+          <mxGeometry height="40" width="80" x="314" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="EPhyCwNbziDaciPyUIgJ-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="共100条数据" vertex="1">
+          <mxGeometry height="30" width="80" x="520" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="EPhyCwNbziDaciPyUIgJ-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="750" as="sourcePoint" />
+            <mxPoint x="520" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EPhyCwNbziDaciPyUIgJ-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;查询待执行的任务&lt;/div&gt;拉取到100条记录" vertex="1">
+          <mxGeometry height="30" width="100" x="304" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="EPhyCwNbziDaciPyUIgJ-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="730" as="sourcePoint" />
+            <mxPoint x="300" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EPhyCwNbziDaciPyUIgJ-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="更新 50 条任务状态" vertex="1">
+          <mxGeometry height="30" width="116" x="304" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="EPhyCwNbziDaciPyUIgJ-32" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="70" width="60" x="530" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="EPhyCwNbziDaciPyUIgJ-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="840" as="sourcePoint" />
+            <mxPoint x="404" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EPhyCwNbziDaciPyUIgJ-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="870" as="sourcePoint" />
+            <mxPoint x="520" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EPhyCwNbziDaciPyUIgJ-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;查询待执行的任务&lt;/div&gt;拉取到50条记录" vertex="1">
+          <mxGeometry height="30" width="100" x="414" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="EPhyCwNbziDaciPyUIgJ-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="线程2开始的时候数据库中还有50条待执行的任务" vertex="1">
+          <mxGeometry height="30" width="100" x="204" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="EPhyCwNbziDaciPyUIgJ-38" parent="1" style="whiteSpace=wrap;html=1;" value="这样就导致线程1中还没被消费的记录又被线程2重复获取到" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="910" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
