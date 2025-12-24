@@ -26,7 +26,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="krbq7Z3fNa4CD2IbMvd8-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2.提交成功直接返回" vertex="1">
-          <mxGeometry height="30" width="100" x="270" y="240" as="geometry" />
+          <mxGeometry height="30" width="110" x="270" y="240" as="geometry" />
         </mxCell>
         <mxCell id="EPhyCwNbziDaciPyUIgJ-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="MySQL" vertex="1">
           <mxGeometry height="30" width="60" x="419" y="140" as="geometry" />
@@ -68,10 +68,10 @@
           <mxGeometry height="60" width="30" x="680" y="190" as="geometry" />
         </mxCell>
         <mxCell id="EPhyCwNbziDaciPyUIgJ-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5.客户查看任务信息" vertex="1">
-          <mxGeometry height="30" width="100" x="540" y="180" as="geometry" />
+          <mxGeometry height="30" width="110" x="540" y="180" as="geometry" />
         </mxCell>
         <mxCell id="EPhyCwNbziDaciPyUIgJ-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="6.返回执行完毕的结果" vertex="1">
-          <mxGeometry height="30" width="70" x="550" y="250" as="geometry" />
+          <mxGeometry height="30" width="120" x="540" y="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
