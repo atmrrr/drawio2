@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="cGdmqITI9kKHqct-wb5i">
+    <mxGraphModel dx="1406" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LIqN_I_F02Ejj_7SqvLF-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="110" width="174" x="403" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="LIqN_I_F02Ejj_7SqvLF-3" edge="1" parent="1" source="LIqN_I_F02Ejj_7SqvLF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LIqN_I_F02Ejj_7SqvLF-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LIqN_I_F02Ejj_7SqvLF-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="euCode" vertex="1">
+          <mxGeometry height="30" width="120" x="180" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LIqN_I_F02Ejj_7SqvLF-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="masterCode1" vertex="1">
+          <mxGeometry height="30" width="120" x="427" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="LIqN_I_F02Ejj_7SqvLF-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="masterCode2" vertex="1">
+          <mxGeometry height="30" width="120" x="430" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="LIqN_I_F02Ejj_7SqvLF-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="110" width="174" x="403" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="LIqN_I_F02Ejj_7SqvLF-7" edge="1" parent="1" source="LIqN_I_F02Ejj_7SqvLF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LIqN_I_F02Ejj_7SqvLF-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LIqN_I_F02Ejj_7SqvLF-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="pkgId" vertex="1">
+          <mxGeometry height="30" width="120" x="180" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="LIqN_I_F02Ejj_7SqvLF-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="euCode" vertex="1">
+          <mxGeometry height="30" width="120" x="427" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="LIqN_I_F02Ejj_7SqvLF-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="euCode" vertex="1">
+          <mxGeometry height="30" width="120" x="430" y="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
