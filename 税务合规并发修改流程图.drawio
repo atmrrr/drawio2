@@ -16,8 +16,8 @@
         <mxCell id="w4p5XBk7s3_lSOw4rM7C-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="路由器" vertex="1">
           <mxGeometry height="60" width="120" x="195" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="w4p5XBk7s3_lSOw4rM7C-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="选择设备， 未过期的不可达设备不会在候选名单中" vertex="1">
-          <mxGeometry height="30" width="230" x="260" y="230" as="geometry" />
+        <mxCell id="w4p5XBk7s3_lSOw4rM7C-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="选择设备， 未过期的不可达设备不会在候选名单中，并获取读锁" vertex="1">
+          <mxGeometry height="30" width="180" x="260" y="230" as="geometry" />
         </mxCell>
         <mxCell id="w4p5XBk7s3_lSOw4rM7C-9" edge="1" parent="1" source="w4p5XBk7s3_lSOw4rM7C-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="w4p5XBk7s3_lSOw4rM7C-8" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -51,23 +51,56 @@
         <mxCell id="w4p5XBk7s3_lSOw4rM7C-20" edge="1" parent="1" source="w4p5XBk7s3_lSOw4rM7C-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="w4p5XBk7s3_lSOw4rM7C-19" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w4p5XBk7s3_lSOw4rM7C-23" edge="1" parent="1" source="w4p5XBk7s3_lSOw4rM7C-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="w4p5XBk7s3_lSOw4rM7C-22" value="">
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-6" edge="1" parent="1" source="w4p5XBk7s3_lSOw4rM7C-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sE1PF_aw_QFyzKWBPnBc-1" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w4p5XBk7s3_lSOw4rM7C-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="获取写锁" vertex="1">
-          <mxGeometry height="80" width="80" x="215" y="650" as="geometry" />
+        <mxCell id="w4p5XBk7s3_lSOw4rM7C-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="释放读锁获取写锁" vertex="1">
+          <mxGeometry height="90" width="90" x="210" y="650" as="geometry" />
         </mxCell>
         <mxCell id="w4p5XBk7s3_lSOw4rM7C-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="等待更新线程重启税务日" vertex="1">
-          <mxGeometry height="40" width="90" x="60" y="670" as="geometry" />
+          <mxGeometry height="40" width="90" x="50" y="675" as="geometry" />
         </mxCell>
         <mxCell id="w4p5XBk7s3_lSOw4rM7C-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="未获取" vertex="1">
           <mxGeometry height="30" width="60" x="155" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="w4p5XBk7s3_lSOw4rM7C-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="等待更新线程重启税务日" vertex="1">
-          <mxGeometry height="40" width="90" x="210" y="780" as="geometry" />
-        </mxCell>
         <mxCell id="w4p5XBk7s3_lSOw4rM7C-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="成功获取" vertex="1">
-          <mxGeometry height="30" width="60" x="290" y="740" as="geometry" />
+          <mxGeometry height="30" width="60" x="270" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-10" edge="1" parent="1" source="sE1PF_aw_QFyzKWBPnBc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sE1PF_aw_QFyzKWBPnBc-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="1.关闭税务日&lt;div&gt;2.开启税务日&lt;/div&gt;&lt;div&gt;3.检查税务日状态&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="105" x="202.5" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="执行重置税务日逻辑" vertex="1">
+          <mxGeometry height="30" width="70" x="330" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="由于更新线程获取了写锁。所以后续打入到该设备的请求都会被阻塞住" vertex="1">
+          <mxGeometry height="47.5" width="160" x="550" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这里要不要判断该服务是否处于更新状态，如果是先不要路由到该设备" vertex="1">
+          <mxGeometry height="30" width="200" x="520" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-12" edge="1" parent="1" source="sE1PF_aw_QFyzKWBPnBc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sE1PF_aw_QFyzKWBPnBc-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-17" edge="1" parent="1" source="sE1PF_aw_QFyzKWBPnBc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sE1PF_aw_QFyzKWBPnBc-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="更新税务日状态成功" vertex="1">
+          <mxGeometry height="80" width="80" x="215" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="释放写锁&lt;div&gt;执行业务&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="50" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="150" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="释放写锁&lt;div&gt;执行业务&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="210" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否，释放写锁" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="980" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
