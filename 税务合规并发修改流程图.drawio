@@ -42,6 +42,14 @@
         <mxCell id="w4p5XBk7s3_lSOw4rM7C-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
           <mxGeometry height="30" width="60" x="160" y="505" as="geometry" />
         </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-52" edge="1" parent="1" source="w4p5XBk7s3_lSOw4rM7C-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sE1PF_aw_QFyzKWBPnBc-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-10" y="545" />
+              <mxPoint x="-10" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="w4p5XBk7s3_lSOw4rM7C-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="发送业务请求" vertex="1">
           <mxGeometry height="40" width="90" x="60" y="525" as="geometry" />
         </mxCell>
