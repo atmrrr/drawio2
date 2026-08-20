@@ -373,7 +373,7 @@
           <mxGeometry height="30" width="60" x="-120" y="3430" as="geometry" />
         </mxCell>
         <mxCell id="sE1PF_aw_QFyzKWBPnBc-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="结束" vertex="1">
-          <mxGeometry height="60" width="100" x="-150" y="3640" as="geometry" />
+          <mxGeometry height="60" width="100" x="-150" y="3760" as="geometry" />
         </mxCell>
         <mxCell id="sE1PF_aw_QFyzKWBPnBc-120" edge="1" parent="1" source="sE1PF_aw_QFyzKWBPnBc-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sE1PF_aw_QFyzKWBPnBc-119" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -429,14 +429,50 @@
         <mxCell id="sE1PF_aw_QFyzKWBPnBc-133" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
           <mxGeometry height="30" width="60" x="100" y="3260" as="geometry" />
         </mxCell>
-        <mxCell id="sE1PF_aw_QFyzKWBPnBc-134" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="返回正常响应内容" vertex="1">
-          <mxGeometry height="60" width="100" x="160" y="3370" as="geometry" />
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-143" edge="1" parent="1" source="sE1PF_aw_QFyzKWBPnBc-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sE1PF_aw_QFyzKWBPnBc-142" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-134" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="执行恢复税务日逻辑" vertex="1">
+          <mxGeometry height="60" width="100" x="160" y="3380" as="geometry" />
         </mxCell>
         <mxCell id="sE1PF_aw_QFyzKWBPnBc-136" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="在这里重启税务日" vertex="1">
           <mxGeometry height="30" width="60" x="560" y="2550" as="geometry" />
         </mxCell>
         <mxCell id="sE1PF_aw_QFyzKWBPnBc-137" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="在这里也要重启税务日吗" vertex="1">
-          <mxGeometry height="30" width="90" x="490" y="3385" as="geometry" />
+          <mxGeometry height="30" width="90" x="610" y="3370" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-138" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="释放读锁" vertex="1">
+          <mxGeometry height="30" width="60" x="-90" y="3060" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-139" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="释放读锁" vertex="1">
+          <mxGeometry height="30" width="60" x="-10" y="3270" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-140" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="230" y="3330" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-141" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="释放读锁&lt;div&gt;获取写锁&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="300" y="3380" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-146" edge="1" parent="1" source="sE1PF_aw_QFyzKWBPnBc-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="sE1PF_aw_QFyzKWBPnBc-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-149" edge="1" parent="1" source="sE1PF_aw_QFyzKWBPnBc-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sE1PF_aw_QFyzKWBPnBc-148" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-142" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="恢复成功" vertex="1">
+          <mxGeometry height="80" width="80" x="170" y="3490" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-147" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="80" y="3480" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-151" edge="1" parent="1" source="sE1PF_aw_QFyzKWBPnBc-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="sE1PF_aw_QFyzKWBPnBc-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-148" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="标记设备不可达" vertex="1">
+          <mxGeometry height="60" width="100" x="160" y="3610" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-150" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="250" y="3560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
