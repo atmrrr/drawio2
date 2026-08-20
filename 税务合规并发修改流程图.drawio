@@ -475,6 +475,12 @@
         <mxCell id="sE1PF_aw_QFyzKWBPnBc-103" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="是否达到最大重试次数" vertex="1">
           <mxGeometry height="80" width="80" x="-140" y="3610" as="geometry" />
         </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-154" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="核心点：&lt;div&gt;1.只有一个线程更新设备和税务日状态&lt;/div&gt;&lt;div&gt;2.税务日恢复与网络不可达分开为两种情况，都会导致改设备下线&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="230" x="540" y="3580" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-155" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这里唯一的问题是，一个线程获取写锁后，其他线程的处理怎么办，异常怎么捕获？" vertex="1">
+          <mxGeometry height="30" width="290" x="200" y="3830" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
