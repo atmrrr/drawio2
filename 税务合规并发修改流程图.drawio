@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="VD8dlml-zcG3r_h0qim7">
-    <mxGraphModel dx="2233" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2481" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -318,7 +318,7 @@
           <mxGeometry height="30" width="60" x="110" y="2880" as="geometry" />
         </mxCell>
         <mxCell id="sE1PF_aw_QFyzKWBPnBc-90" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="设备不可达的判断依据：&lt;div&gt;1.连续5条请求网络异常&lt;/div&gt;&lt;div&gt;2.税务日连续三次恢复失败&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="170" x="-110" y="2220" as="geometry" />
+          <mxGeometry height="30" width="170" x="-70" y="2280" as="geometry" />
         </mxCell>
         <mxCell id="sE1PF_aw_QFyzKWBPnBc-95" edge="1" parent="1" source="sE1PF_aw_QFyzKWBPnBc-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sE1PF_aw_QFyzKWBPnBc-94" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -352,7 +352,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sE1PF_aw_QFyzKWBPnBc-103" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="是否达到最大重试次数" vertex="1">
-          <mxGeometry height="80" width="80" x="-140" y="3170" as="geometry" />
+          <mxGeometry height="80" width="80" x="-140" y="3350" as="geometry" />
         </mxCell>
         <mxCell id="sE1PF_aw_QFyzKWBPnBc-106" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
           <mxGeometry height="30" width="60" x="-200" y="2880" as="geometry" />
@@ -367,19 +367,76 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sE1PF_aw_QFyzKWBPnBc-111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="记录异常" vertex="1">
-          <mxGeometry height="60" width="100" x="-150" y="3330" as="geometry" />
+          <mxGeometry height="60" width="100" x="-150" y="3490" as="geometry" />
         </mxCell>
         <mxCell id="sE1PF_aw_QFyzKWBPnBc-113" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
-          <mxGeometry height="30" width="60" x="-100" y="3270" as="geometry" />
+          <mxGeometry height="30" width="60" x="-120" y="3430" as="geometry" />
         </mxCell>
         <mxCell id="sE1PF_aw_QFyzKWBPnBc-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="结束" vertex="1">
-          <mxGeometry height="60" width="100" x="-150" y="3450" as="geometry" />
+          <mxGeometry height="60" width="100" x="-150" y="3640" as="geometry" />
         </mxCell>
-        <mxCell id="sE1PF_aw_QFyzKWBPnBc-116" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="更新设备异常次数&lt;div&gt;+1&lt;/div&gt;" vertex="1">
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-120" edge="1" parent="1" source="sE1PF_aw_QFyzKWBPnBc-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sE1PF_aw_QFyzKWBPnBc-119" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-116" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="发送业务请求" vertex="1">
           <mxGeometry height="60" width="100" x="160" y="3020" as="geometry" />
         </mxCell>
         <mxCell id="sE1PF_aw_QFyzKWBPnBc-118" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
           <mxGeometry height="30" width="60" x="215" y="2960" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-122" edge="1" parent="1" source="sE1PF_aw_QFyzKWBPnBc-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sE1PF_aw_QFyzKWBPnBc-121" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-128" edge="1" parent="1" source="sE1PF_aw_QFyzKWBPnBc-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="3250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-119" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="响应是否成功" vertex="1">
+          <mxGeometry height="80" width="80" x="170" y="3120" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-126" edge="1" parent="1" source="sE1PF_aw_QFyzKWBPnBc-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sE1PF_aw_QFyzKWBPnBc-114">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="3590" />
+              <mxPoint x="-100" y="3590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-121" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="返回正常响应内容" vertex="1">
+          <mxGeometry height="60" width="100" x="10" y="3130" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-123" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="3120" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-129" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="200" y="3210" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-132" edge="1" parent="1" source="sE1PF_aw_QFyzKWBPnBc-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="sE1PF_aw_QFyzKWBPnBc-103">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="3290" />
+              <mxPoint x="60" y="3390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-135" edge="1" parent="1" source="sE1PF_aw_QFyzKWBPnBc-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sE1PF_aw_QFyzKWBPnBc-134" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-130" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="是否是税务日问题" vertex="1">
+          <mxGeometry height="80" width="80" x="170" y="3250" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-133" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="3260" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-134" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="返回正常响应内容" vertex="1">
+          <mxGeometry height="60" width="100" x="160" y="3370" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-136" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="在这里重启税务日" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="2550" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-137" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="在这里也要重启税务日吗" vertex="1">
+          <mxGeometry height="30" width="90" x="490" y="3385" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
