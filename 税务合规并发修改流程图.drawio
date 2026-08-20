@@ -199,6 +199,30 @@
         <mxCell id="sE1PF_aw_QFyzKWBPnBc-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是，任务处理失败，记录错误信息" vertex="1">
           <mxGeometry height="30" width="105" x="-60" y="1330" as="geometry" />
         </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="如果这里线程一直源源不断的获取读锁，后续的更新线程将永远获取不到写锁，&lt;div&gt;所以出现了异常情况就需要及时修改税务日状态&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="225" x="-170" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="设备路由" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="1740" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="开始" vertex="1">
+          <mxGeometry height="40" width="105" x="100" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="税务日状态单独维护，不用每一次请求都调用请求判断状态" vertex="1">
+          <mxGeometry height="70" width="130" x="-370" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="获取读锁" vertex="1">
+          <mxGeometry height="30" width="60" x="-100" y="1980" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="执行业务" vertex="1">
+          <mxGeometry height="30" width="60" x="50" y="1980" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="获取写锁" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="1980" as="geometry" />
+        </mxCell>
+        <mxCell id="sE1PF_aw_QFyzKWBPnBc-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="恢复税务日" vertex="1">
+          <mxGeometry height="30" width="70" x="270" y="1980" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
